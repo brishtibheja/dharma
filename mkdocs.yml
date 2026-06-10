@@ -2,3 +2,26 @@ site_name: Dharma
 site_url: https://brishtibheja.github.io/dharma
 theme:
   name: material
+  font:
+    text: Lexend
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  palette:  
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: yellow
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: yellow
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
